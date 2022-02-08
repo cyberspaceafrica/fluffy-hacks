@@ -15,3 +15,14 @@ data.py stores the default data in the database. There is an administrator accou
 gtl.py is the Gruyere template language
 sanitize.py is the Gruyere module used for sanitizing HTML to protect the application from security holes.
 resources/... holds all template files, images, CSS, etc.
+
+USING GRUYERE
+To familiarize yourself with the features of Gruyere, complete the following tasks:
+
+View another user's snippets by following the "All snippets" link on the main page. Also check out what they have their Homepage set to.
+Sign up for an account for yourself to use when hacking. Do not use the same password for your Gruyere account as you use for any real service.
+Fill in your account's profile, including a private snippet and an icon that will be displayed by your name.
+Create a snippet (via "New Snippet") containing your favorite joke.
+Upload a file (via "Upload") to your account.
+
+This covers the basic features provided by Gruyere. Now let's break them! 

@@ -1,2 +1,17 @@
+SETUP
 To access Gruyere, go to https://google-gruyere.appspot.com/start. AppEngine will start a new instance of Gruyere for you, assign it a unique id and redirect you to https://google-gruyere.appspot.com/123/ (where 123 is your unique id). Each instance of Gruyere is "sandboxed" from the other instances so your instance won't be affected by anyone else using Gruyere. You'll need to use your unique id instead of 123 in all the examples. If you want to share your instance of Gruyere with someone else (e.g., to show them a successful attack), just share the full URL with them including your unique id. 
 The Gruyere source code is available online so that you can use it for white-box hacking. You can browse the source code at https://google-gruyere.appspot.com/code/ or download all the files from https://google-gruyere.appspot.com/gruyere-code.zip. If want to debug it or actually try fixing the bugs, you can download it and run it locally. You do not need to run Gruyere locally in order to do the lab. 
+
+RESET BUTTON
+As noted above, each instance is sandboxed so it can't consume infinite resources and it can't interfere with anyone else's instance. Notwithstanding that, it is possible to put your Gruyere instance into a state where it is completely unusable. If that happens, you can push a magic "reset button" to wipe out all the data in your instance and start from scratch. To do this, visit this URL with your instance id:
+
+https://google-gruyere.appspot.com/resetbutton/123
+
+ABOUT THE CODE
+Gruyere is small and compact. Here is a quick rundown of the application code:
+
+gruyere.py is the main Gruyere web server
+data.py stores the default data in the database. There is an administrator account and two default users.
+gtl.py is the Gruyere template language
+sanitize.py is the Gruyere module used for sanitizing HTML to protect the application from security holes.
+resources/... holds all template files, images, CSS, etc.

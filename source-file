@@ -1,5 +1,7 @@
 SETUP
-To access Gruyere, go to https://google-gruyere.appspot.com/start. AppEngine will start a new instance of Gruyere for you, assign it a unique id and redirect you to https://google-gruyere.appspot.com/123/ (where 123 is your unique id). Each instance of Gruyere is "sandboxed" from the other instances so your instance won't be affected by anyone else using Gruyere. You'll need to use your unique id instead of 123 in all the examples. If you want to share your instance of Gruyere with someone else (e.g., to show them a successful attack), just share the full URL with them including your unique id. 
+To access Gruyere, go to https://google-gruyere.appspot.com/start. AppEngine will start a new instance of Gruyere for you, assign it a unique id and redirect you to https://google-gruyere.appspot.com/123/ (where 123 is your unique id). 
+Each instance of Gruyere is "sandboxed" from the other instances so your instance won't be affected by anyone else using Gruyere. You'll need to use your unique id instead of 123 in all the examples. 
+If you want to share your instance of Gruyere (e.g., to show a successful attack), just share the full URL including your unique id. 
 The Gruyere source code is available online so that you can use it for white-box hacking. You can browse the source code at https://google-gruyere.appspot.com/code/ or download all the files from https://google-gruyere.appspot.com/gruyere-code.zip. If want to debug it or actually try fixing the bugs, you can download it and run it locally. You do not need to run Gruyere locally in order to do the lab. 
 
 RESET BUTTON
